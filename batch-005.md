@@ -1,0 +1,30 @@
+# APPENDIX G.
+
+## NOTE ON THE MOTION OF A CHARGED BODY AT A SPEED EQUAL TO OR GREATER THAN THAT OF LIGHT.
+
+Mr. Searle remarks at the end of his paper[^1] that it would seem to be impossible to make a charged body move at greater speed than that of light. Prof. J. J. Thomson[^2] has made a similar remark in the same connection. Prof. G. F. FitzGerald did so also, long ago, but in a different connection.[^3]
+
+The argument implied in the cases of Thomson and Searle seems to be that since the calculated energy of a charged body is infinite when in steady rectilinear motion at the speed of light, and since this energy must be derived from an external source, an infinite amount of work must be done, that is, an infinite resistance will be experienced.
+
+There is a fallacy here. One easy way of disproving the argument from infinity is to use not one, but two bodies, one positively and the other negatively charged to the same degree. Then the infinity disappears, and there you are, with finite energy when moving at the speed of light.
+
+But I go much further than that, and assert that a single charged body may be moved at any speed, whether equal to or exceeding that of light, without any infiniteness of the energy or infinite resistance to motion--that, in fact, a charged body may be moved about anyhow. Remember that it is not a question of whether the mechanical constitution of the ether will permit it--nothing is known about that--but merely one of electromagnetic laws. If they are valid at any speed, then there is nothing to prevent speeds of motion greater than light.
+
+To illustrate. Start with a stationary charged body; then move it anyhow, finally bringing it to steady rectilinear motion at speed $u$. Wait a little while, and the special distribution of displacement round the instantaneous position of the body will be assumed. But it will not extend to infinity. For beyond the distance from the first position of the body, travelled by light in the time occupied in shifting it to a second position, there is no disturbance of the original distribution of displacement. This holds for all time, so the energy is always finite, even when the speed $u$ is that of light or more, unless there should be infinite collections of energy at a finite distance from the body, and there is no need for that.
+
+Where does the energy come from? The body meets with resistance as its speed is increased. Not only that, but it requires force to maintain its speed steady until the steady distribution of displacement appropriate to the speed is assumed. This force tends to vanish when $u < v$. But it does not when $u = v$. (A single charged body is in question now.) There is a pull-back on the body exerted by the deformation of the tubes of force; their pull on the body is greater behind than in front until the regular steady distribution is fully assumed. This cannot be approximated to exactly when $u = v$. But we may get over this difficulty, as before, by means of two charges. [Note 16, p. 547]
+
+When $u > v$, the pull-back becomes very prominent, and in any case, whether there is one body or two, the constant exertion of force is required to maintain the motion. The displacement for a point charge is a conical sheet behind the charge, together with a supplementary distribution inside the cone. The pulling back is obvious, and the energy is being wasted at a steady rate by the constant growth of the cone at its apex, which is fully accounted for by the activity of the applied moving force. This is as I suspected in 1888[^4] ("El. Papers," Vol. 2, p. 494), and I later corroborated it by mathematical investigation. The solution is described in my "El. Papers," Vol. 2, p. 516. It is not the same formula as when $u < v$. The infinities that are concerned in it are not essential. They arise from its being a point charge that is in question. Make it a surface distribution and it will all come plain, the cone (or other surface) behind the charge, and the constant pull-back exerted on the body by the displacement. [Fully worked out examples of this theory would be too lengthy here, and must be postponed.]
+
+The tendency of the displacement to be left behind as the body moves is also the cause of the apparent increase of inertia of the body at slow speeds. We then calculate statically, as it were; in the approximate result it appears that when $u$ varies anyhow ($u/v$ being always very small), the resistance to motion is equivalent to an increase of inertia (J. J. Thomson). And yet there is no apparent pull-back by the electrical tension; but that is because of the erroneous assumption made, that the change of displacement is instantly assumed as the body moves. Allow for finite $v$, and this case is no exception.
+
+The moral is--don't be afraid of *infinity*!
+
+[The above arrived at the Physical Society too late for the discussion. The matter in question is quite visionary, superficially considered; but is of considerable theoretical importance.]
+
+[Feb. 26, 1898.--It may also become of some practical importance in connection with "Cathode Rays" and "X-Rays," for J. J. Thomson and others have lately concluded from experiment that immense speeds of the charged particles, comparable with the speed of light, are concerned. If this be fully confirmed, we may well believe that increased voltage will produce speeds exceeding that of light, if they do not exist already, and so bring in the conical theory. Regarding the nature of the waves generated by starting or stopping charges, when the speeds are the same (or about the same) as that of light, see vol. 1, §§ 54 to 59.]
+
+[^1]: Physical Society, 1897; *Phil. Mag.*, October, 1897.
+[^2]: "Recent Researches in Electricity and Magnetism," Chap. I.
+[^3]: Dr. Fleming has lately repeated Prof. J. J. Thomson's conclusion.
+[^4]: But, on reference, I see that I described the electric current as being towards the charge inside the cone, and away from it on the outside. This should be the electric displacement.

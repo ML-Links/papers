@@ -6,7 +6,23 @@
 
 This volume presents a unified exegetical framework for the study of James Clerk Maxwell's first major electromagnetic paper, *On Faraday's Lines of Force* (1855–1856). The work is structured as a single, interleaved volume that integrates the functions of a pre-reading guide and an active commentary into a cohesive whole.
 
+
 The unified system is designed to reduce the administrative overhead of managing separate volumes—one for reference and one for active annotation—while preserving the functional distinction between these two modes of engagement. The Guide component provides the stable architectural framework: prerequisites, mappings to supplementary texts, schedules, and checklists. The Exegesis component provides the dynamic workspace for active engagement: annotations, translations, mathematical derivations, and visualizations.
+
+**The Zone Taxonomy: A Structural Classification System**
+
+To manage the complexity of the interleaved volume and to clarify the role of AI-assisted drafting, the content of this exegesis is classified into three distinct zones based on its dependence on Maxwell's original text:
+
+| Zone | Classification | Description | Examples |
+| :--- | :--- | :--- | :--- |
+| **Zone 1** | Static Infrastructure | Content that can be fully prepared before reading the source text. It relies on established mathematical knowledge, historical research, and methodological frameworks rather than direct engagement with Maxwell's paper. | Front Matter (Chapters 1–4), Appendices (Glossary, Cross-Reference Mapping, Bibliography), Code Repository structure. |
+| **Zone 2** | Contextual Skeletons | Content that establishes the structural framework for each section of the exegesis but requires the reader to fill in specific details during active reading. These skeletons provide objectives, terminology mapping, mathematical templates, and pre-defined connections to later papers. | Section introductions and overviews, Phase 1 (Preparatory Foundations) for each section, Phase 3 (Mathematical Formalization) templates with Translation Protocol placeholders, Connections to Later Papers notes, References Integration Callouts. |
+| **Zone 3** | Active Exegesis | Content that can only be produced through direct, active engagement with Maxwell's source text. This zone represents the core intellectual work of the exegesis and cannot be pre-written or AI-generated. | Phase 2 (Active Textual Analysis) including Structured Annotation Templates, Raw Annotations Workspace, and Reading Checklists; Phase 4 (Computational Visualization) including storyboards, implemented code, and Visualization Reviews. |
+
+This taxonomy serves three purposes:
+1. **Clarity:** It clarifies which sections of the volume require active reading and which provide reference material.
+2. **Efficiency:** It enables the efficient use of AI assistance for Zone 1 and Zone 2 content while preserving the reader's intellectual autonomy for Zone 3.
+3. **Quality Control:** It provides a framework for validation checks that prevent the retroactive projection of later physical concepts (such as electric displacement $\mathbf{D}$) onto Maxwell's 1855 text.
 
 This integration is intended to help the reader maintain structural orientation while retaining the freedom to explore, question, and annotate. The system is designed to be replicable across Papers 2, 3, and 4 of Maxwell's electromagnetic series, as well as other foundational texts in physics and mathematics.
 

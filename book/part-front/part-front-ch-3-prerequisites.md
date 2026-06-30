@@ -522,6 +522,7 @@ This chapter has established the mathematical and physical prerequisites for eng
 
 The reader should complete the diagnostic exercises and self-assessment checklist before proceeding to the active exegesis.
 
+> Note:  **Unit Convention Clarification:** In the French Potential Theory subsection, you write $\nabla^2 \phi = -4\pi\rho$. In the modern SI convention, this would be $\nabla^2 \phi = -\rho/\epsilon_0$. 
 ---
 
 ### References

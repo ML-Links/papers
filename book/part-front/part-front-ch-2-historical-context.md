@@ -16,21 +16,21 @@ The dominant mathematical framework for electricity and magnetism in 1855 was th
 
 $$F = k \frac{q_1 q_2}{r^2}$$
 
-where \(q_1\) and \(q_2\) are the charges, \(r\) is the distance between them, and \(k\) is a constant.
+where $q_1$ and $q_2$ are the charges, $r$ is the distance between them, and $k$ is a constant.
 
-- **Siméon Denis Poisson (1781–1840):** Poisson extended Coulomb's law to continuous charge distributions. He introduced the concept of the potential function, showing that the electric field could be derived from a scalar potential \(\phi\) satisfying Poisson's equation:
+- **Siméon Denis Poisson (1781–1840):** Poisson extended Coulomb's law to continuous charge distributions. He introduced the concept of the potential function, showing that the electric field could be derived from a scalar potential $\phi$ satisfying Poisson's equation:
 
 $$\nabla^2 \phi = -4\pi \rho$$
 
-where \(\rho\) is the charge density. This mathematical framework allowed the calculation of electric fields for arbitrary charge distributions using the superposition principle.
+where $\rho$ is the charge density. This mathematical framework allowed the calculation of electric fields for arbitrary charge distributions using the superposition principle.
 
-- **André-Marie Ampère (1775–1836):** Ampère established the fundamental law of electrodynamics, seeking a mathematical expression for the mechanical force between two current-carrying circuits. Rejecting any spatial field mechanics, Ampère treated currents as collections of infinitesimal current elements (\(I_1 d\mathbf{l}_1\) and \(I_2 d\mathbf{l}_2\)) interacting directly across empty space. His general, original electrodynamic force law was formulated vectorially as:
+- **André-Marie Ampère (1775–1836):** Ampère established the fundamental law of electrodynamics, seeking a mathematical expression for the mechanical force between two current-carrying circuits. Rejecting any spatial field mechanics, Ampère treated currents as collections of infinitesimal current elements ($I_1 d\mathbf{l}_1$ and $I_2 d\mathbf{l}_2$) interacting directly across empty space. His general, original electrodynamic force law was formulated vectorially as:
 
 $$d^2\mathbf{F}_{12} = -\frac{\mu_0 I_1 I_2}{4\pi r^2} \left[ 2(d\mathbf{l}_1 \cdot d\mathbf{l}_2) - 3(\hat{\mathbf{r}} \cdot d\mathbf{l}_1)(\hat{\mathbf{r}} \cdot d\mathbf{l}_2) \right] \hat{\mathbf{r}}$$
 
-where \(d^2\mathbf{F}_{12}\) is the force exerted on element 2 by element 1, \(\hat{\mathbf{r}}\) is the unit vector pointing from element 1 to element 2, and \(r\) is the distance separating them.
+where $d^2\mathbf{F}_{12}$ is the force exerted on element 2 by element 1, $\hat{\mathbf{r}}$ is the unit vector pointing from element 1 to element 2, and $r$ is the distance separating them.
 
-**An Important Historical Distinction:** It is an anachronism of modern textbooks to attribute the spatial integral relation \(\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\text{enc}}\) (often called "Ampère's Circuital Law") directly to Ampère. Ampère did not construct or use spatial vector fields. The mathematical conversion of Ampère's experimental laws on closed circuits into a spatial circulation equation was accomplished entirely by Maxwell himself (derived in coordinate component form as Theorem I in Paper 1).
+**An Important Historical Distinction:** It is an anachronism of modern textbooks to attribute the spatial integral relation $\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\text{enc}}$ (often called "Ampère's Circuital Law") directly to Ampère. Ampère did not construct or use spatial vector fields. The mathematical conversion of Ampère's experimental laws on closed circuits into a spatial circulation equation was accomplished entirely by Maxwell himself (derived in coordinate component form as Theorem I in Paper 1).
 
 - **Wilhelm Eduard Weber (1804–1891):** Weber developed a comprehensive electrodynamic theory that treated electric charges as interacting through forces that depended not only on distance but also on relative velocity and acceleration. Weber's force law was an extension of Coulomb's law that included velocity-dependent terms. His formulation directly influenced Maxwell's early thinking, particularly through the concept of the "electro-tonic state."
 
@@ -117,15 +117,15 @@ The method Maxwell used was fundamentally analogical. He observed that the mathe
 
 Maxwell's fluid analogy was the centerpiece of Paper 1. He imagined the electromagnetic field as an incompressible fluid flowing through a resistive medium. To avoid projecting a singular physical interpretation, Maxwell constructed this analogy as a **dual-layered mathematical map** (see Chapter 1, Section 1.5.2):
 
-1. **The Electrostatic/Conduction Layer:** In static electrical systems, the pressure \(p\) of the fluid corresponds to the electric potential (\(\phi\)), the pressure gradient \(\nabla p\) corresponds to the electric field (\(\mathbf{E}\)), and the fluid velocity \(\mathbf{v}\) maps to the electric current density (\(\mathbf{J}\)).
+1. **The Electrostatic/Conduction Layer:** In static electrical systems, the pressure $p$ of the fluid corresponds to the electric potential ($\phi$), the pressure gradient $\nabla p$ corresponds to the electric field ($\mathbf{E}$), and the fluid velocity $\mathbf{v}$ maps to the electric current density ($\mathbf{J}$).
 
-2. **The Magnetostatic Layer:** In magnetic systems, the fluid velocity \(\mathbf{v}\) instead maps to the magnetic intensity (\(\mathbf{H}\)), the medium's resistance \(k\) corresponds to reluctivity (\(1/\mu\)), and the total volume of fluid passing through a surface represents the total magnetic flux (\(\Phi\)).
+2. **The Magnetostatic Layer:** In magnetic systems, the fluid velocity $\mathbf{v}$ instead maps to the magnetic intensity ($\mathbf{H}$), the medium's resistance $k$ corresponds to reluctivity ($1/\mu$), and the total volume of fluid passing through a surface represents the total magnetic flux ($\Phi$).
 
 By maintaining this dual-layered mapping, Maxwell was able to use the single mathematical framework of hydrodynamics to model two physically distinct classes of electromagnetic phenomena without committing to the physical reality of either.
 
 ##### 2.2.3 The Emergence of the Electro-tonic State
 
-Faraday's "electro-tonic state" was particularly important to Maxwell. In Part II of Paper 1, Maxwell introduced the mathematical concept of the "electro-tonic intensity"—a vector quantity whose circulation around a closed loop yields the electromotive force. In modern terms, this is the vector potential \(\mathbf{A}\).
+Faraday's "electro-tonic state" was particularly important to Maxwell. In Part II of Paper 1, Maxwell introduced the mathematical concept of the "electro-tonic intensity"—a vector quantity whose circulation around a closed loop yields the electromotive force. In modern terms, this is the vector potential $\mathbf{A}$.
 
 Maxwell explicitly connected this mathematical concept to Faraday's qualitative notion:
 
@@ -133,7 +133,7 @@ Maxwell explicitly connected this mathematical concept to Faraday's qualitative 
 
 This was a direct translation of Faraday's qualitative geometry into mathematical physics.
 
-**The Historical Inversion of the Potential:** It is critical to note that Maxwell viewed the vector potential (\(\mathbf{A}\), or electro-tonic intensity) as **the fundamental physical quantity of electromagnetic theory** [1]. This stands in contrast to modern pedagogical treatments, which prioritize the electric and magnetic fields (\(\mathbf{E}\) and \(\mathbf{B}\)) and treat the potential \(\mathbf{A}\) as a secondary mathematical convenience. When engaging with Part II of this exegesis, the reader should adopt Maxwell's perspective: the electro-tonic intensity is not a mathematical abstraction, but a representation of physical tension in the medium [1].
+**The Historical Inversion of the Potential:** It is critical to note that Maxwell viewed the vector potential ($\mathbf{A}$, or electro-tonic intensity) as **the fundamental physical quantity of electromagnetic theory** [1]. This stands in contrast to modern pedagogical treatments, which prioritize the electric and magnetic fields ($\mathbf{E}$ and $\mathbf{B}$) and treat the potential $\mathbf{A}$ as a secondary mathematical convenience. When engaging with Part II of this exegesis, the reader should adopt Maxwell's perspective: the electro-tonic intensity is not a mathematical abstraction, but a representation of physical tension in the medium [1].
 
 ##### 2.2.4 The Problem of Contemporary Reception and Friction
 
@@ -188,7 +188,7 @@ Maxwell also acknowledged his debt to Faraday in the opening of Paper 1:
 
 2. **The Distinction Between Intensity and Quantity:** Maxwell introduced the crucial distinction between "intensity" (the force or field strength at a point) and "quantity" (the flux or induction through a surface). This distinction, which was conflated in the fluid model, became central to Maxwell's mature theory.
 
-3. **The Electro-tonic State:** Maxwell introduced the mathematical concept of the electro-tonic intensity (the precursor to the vector potential \(\mathbf{A}\)), directly translating Faraday's qualitative notion into mathematical physics. Maxwell viewed this quantity as the fundamental physical variable of his theory [1].
+3. **The Electro-tonic State:** Maxwell introduced the mathematical concept of the electro-tonic intensity (the precursor to the vector potential $\mathbf{A}$), directly translating Faraday's qualitative notion into mathematical physics. Maxwell viewed this quantity as the fundamental physical variable of his theory [1].
 
 4. **The Two Circuit Laws:** Maxwell derived the two fundamental circuit laws: Ampère's law (relating magnetic field to current) and Faraday's law (relating electromotive force to changing magnetic field). These laws became the core of his field theory.
 
@@ -208,9 +208,9 @@ This chapter has established the historical and scientific context for Maxwell's
 
 3. **The Collaborative Synthesis:** Maxwell translated Faraday's qualitative geometry into mathematical physics. He showed that Faraday's lines of force could be represented as streamlines in an incompressible fluid, allowing him to borrow the mathematics of hydrodynamics.
 
-4. **The Fluid Analogy as a Dual-Layered Map:** Maxwell's fluid analogy operated on two levels: in electrostatic contexts, fluid velocity mapped to current density \(\mathbf{J}\); in magnetostatic contexts, it mapped to magnetic intensity \(\mathbf{H}\). This dual mapping allowed a single mathematical framework to model two distinct physical phenomena.
+4. **The Fluid Analogy as a Dual-Layered Map:** Maxwell's fluid analogy operated on two levels: in electrostatic contexts, fluid velocity mapped to current density $\mathbf{J}$; in magnetostatic contexts, it mapped to magnetic intensity $\mathbf{H}$. This dual mapping allowed a single mathematical framework to model two distinct physical phenomena.
 
-5. **The Electro-tonic State:** Maxwell directly translated Faraday's electro-tonic state into the mathematical concept of the electro-tonic intensity (the precursor to the vector potential \(\mathbf{A}\)). Maxwell viewed the vector potential as the fundamental physical quantity, a perspective that contrasts with modern pedagogical treatments [1].
+5. **The Electro-tonic State:** Maxwell directly translated Faraday's electro-tonic state into the mathematical concept of the electro-tonic intensity (the precursor to the vector potential $\mathbf{A}$). Maxwell viewed the vector potential as the fundamental physical quantity, a perspective that contrasts with modern pedagogical treatments [1].
 
 6. **The Problem of Reception:** The field concept faced severe resistance, even among Maxwell's closest contemporaries. Paper 1 should be approached as a controversial opening volley in a decades-long debate [1].
 
